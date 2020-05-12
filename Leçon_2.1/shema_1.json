@@ -1,0 +1,81 @@
+{
+    "name": "human_developpement",
+    "title": "The level of development of countries",
+    "field": [
+        {
+            "name": "Rank",
+            "type": "integer",
+            "description": "the of the country"
+        },
+        {
+            "name": "Country",
+            "type": "string",
+            "description": "the of the country"
+        },
+        {
+            "name": "Electricity_consumption_2004 (kW/h)",
+            "type": "integer",
+            "description": "Electricity consumption per capita in 2004 in kW/h"
+        },
+        {
+            "name": "Electricity_consumption_90_04 (change %)",
+            "type": "number",
+            "description": "The lectricity consumption per capita change from 1990 to 2004 in %"
+        },
+        {
+            "name": "Electrification_rate_00-05 (%)",
+            "type": "number",
+            "description": "The Electrification rate in %"
+        },
+        {
+            "name": "without _electricity_2005 (million)",
+            "type": "number",
+            "description": "Population without  electricity in million"
+        },
+        {
+            "name": "GDP_per_unit_of_energy_use_2004 (2000 PPP US$ per kg of oil equivalent)",
+            "type": "number",
+            "description": "GDP per unit of energy use in 2004 in 2000 PPP US$ per kg of oil equivalent"
+        },
+        {
+            "name": "GDP_per_unit_of_energy_us_1990-2004 (% change)",
+            "type": "number",
+            "description": "The change of GDP per unit of energy use from 1990 to 2004"
+        },
+        {
+            "name": "total_land_area_2005 (%)",
+            "type": "number",
+            "description": "Percentage of total land area in 2005 in %"
+        },
+        {
+            "name": "total_land_area_2005 (km²)",
+            "type": "number",
+            "description": "total land area 2005 in km²"
+        },
+        {
+            "name": "Total_change_1990-2005 (km²)",
+            "type": "number",
+            "description": "Total land area change from 1990 to 2005 in km²"
+        },
+        {
+            "name": "HDI_category",
+            "type":"string",
+            "constraints": {
+                "enum": [
+                    "LOW HUMAN DEVELOPMENT",
+                    "MEDIUM HUMAN DEVELOPMENT",
+                    "MEDIUM HUMAN DEVELOPMENT"
+                ]
+            }
+        }
+    ],
+    "required": [
+        "Rank",
+        "Country"
+    ],
+    "unique": [
+        "Rank",
+        "Country"
+    ],
+    "missingValues": [""]
+}
