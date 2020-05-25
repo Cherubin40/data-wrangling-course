@@ -1,4 +1,4 @@
-Rank;Country;Electricity_consumption_2004  (kW/h);Electricity_consumption_90_04 (change %) ;Electrification_rate_00-05 (%);without _electricity_2005 (million);GDP_per_unit_of_energy_use_2004 (2000 PPP US$ per kg of oil equivalent);GDP_per_unit_of_energy_us_1990-2004 (% change);total_land_area_2005 (%);total_land_area_2005 (km�);Total_change_1990-2005 (km�);HDI_category
+Rank;Country;Electricity_consumption_2004  (kW/h);Electricity_consumption_90_04 (change %) ;Electrification_rate_00-05 (%);without _electricity_2005 (million);GDP_per_unit_of_energy_use_2004 (2000 PPP US$ per kg of oil equivalent);GDP_per_unit_of_energy_us_1990-2004 (% change);total_land_area_2005 (%);total_land_area_2005 (km²);Total_change_1990-2005 (km²);HDI_category
 1;Iceland;29430;66,4;100;;2,5;-12,1;0,5;0,5;0,2;HIGH HUMAN DEVELOPMENT
 2;Norway;26657;6,5;100;;5,9;15,9;30,7;93,9;2,6;HIGH HUMAN DEVELOPMENT
 3;Australia;11849;30,4;100;;4,8;21,3;21,3;1636,8;-42,3;HIGH HUMAN DEVELOPMENT
